@@ -1,4 +1,4 @@
-$cfgpath = "~/.scoop"
+$cfgpath = "${env:HOME}/.scoop"
 
 function hashtable($obj) {
     $h = @{ }
